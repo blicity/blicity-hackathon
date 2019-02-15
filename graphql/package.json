@@ -1,0 +1,16 @@
+{
+  "name": "docker_graphql_app",
+  "version": "1.0.0",
+  "description": "graphql on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2"
+  }
+}
+
